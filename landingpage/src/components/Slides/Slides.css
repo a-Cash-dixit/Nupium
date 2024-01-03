@@ -1,0 +1,28 @@
+body{
+    font-family: 'Baloo Bhai 2', sans-serif;
+}
+.Slides{
+    /* height: 70vh; */
+    display: flex;
+    flex-direction: column;
+    padding:1%;
+    background-color: #8400ff;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vh;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item>h1{
+    color:rgb(0, 183, 255);
+}
+.item>p{
+    color: yellow;
+}
