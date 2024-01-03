@@ -16,19 +16,19 @@ const Slides = () => {
         infiniteLoop={true}
       >
         <div>
-          <img style={{ height: "60vh" }} src={img1} alt="slide" />
+          <img style={{ height: "66vh" }} src={img1} alt="slide" />
           {/* <p className="legend">Legend 1</p> */}
         </div>
         <div>
-          <img style={{ height: "60vh" }} src={img2} alt="slide" />
+          <img style={{ height: "66vh" }} src={img2} alt="slide" />
           {/* <p className="legend">Legend 2</p> */}
         </div>
         <div>
-          <img style={{ height: "60vh" }} src={img3} alt="slide" />
+          <img style={{ height: "66vh" }} src={img3} alt="slide" />
           {/* <p className="legend">Legend 3</p> */}
         </div>
         <div>
-          <img style={{ height: "60vh" }} src={img4} alt="slide" />
+          <img style={{ height: "66vh" }} src={img4} alt="slide" />
           {/* <p className="legend">Legend 4</p> */}
         </div>
       </Carousel>

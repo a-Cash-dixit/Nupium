@@ -1,10 +1,13 @@
 .navbar{
     /* background-color: #330173; */
     /* background-color: #a19511; */
-    background-color: #8400ff;
+    background-color: #7300ff;
     height: 22vh;
     padding: 1%;
     display: flex;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
 }
 .navbarcontainer{
     display: flex;
