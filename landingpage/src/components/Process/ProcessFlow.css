@@ -1,0 +1,12 @@
+.flowchart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Item img{
+    width: 150vh;
+}
+.Item h2{
+    color:rgb(0, 183, 255);
+}
