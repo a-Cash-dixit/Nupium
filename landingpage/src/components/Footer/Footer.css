@@ -1,0 +1,17 @@
+.socials{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-around;
+}
+.Footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7300ff;
+    padding: 2%;
+}
+.copyright{
+    color: yellow;
+    padding: 2%;
+}

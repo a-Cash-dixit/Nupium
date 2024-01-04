@@ -20,7 +20,7 @@
 }
 .logo{
     width: 22vh;
-    height: 22vh;
+    height: 21vh;
 }
 
 
@@ -33,7 +33,7 @@
   color:rgb(0, 183, 255);
   cursor: pointer;
   display: inline-block;
-  font-family: 'Baloo Bhai 2', sans-serif;
+  font-family: 'Baloo Bhai 2', sans-serif; 
   font-size: 2.2vh;
   font-weight: 700;
   letter-spacing: 0;

@@ -2,8 +2,8 @@ import React from "react";
 import "./Slides.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-var img1 = require("../../images/1001773457_577c3a7d70.jpg");
-var img2 = require("../../images/1002674143_1b742ab4b8.jpg");
+var img2 = require("../../images/Screenshot (260).png");
+var img1 = require("../../images/Screenshot (261).png");
 var img3 = require("../../images/1007320043_627395c3d8.jpg");
 var img4 = require("../../images/1012212859_01547e3f17.jpg");
 const Slides = () => {

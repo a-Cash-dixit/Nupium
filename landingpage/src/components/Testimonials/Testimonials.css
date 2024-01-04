@@ -1,0 +1,18 @@
+.Cards{
+    display: flex;
+    justify-content: space-around;
+}
+.Testimonials{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 5vh;
+    font-weight: 700;
+    color: aqua;
+    padding: 2%;
+    font-family: 'Baloo Bhai 2', sans-serif;
+}
