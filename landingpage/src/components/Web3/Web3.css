@@ -1,0 +1,15 @@
+.Web3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #7300ff;
+    padding: 1%;
+}
+.Web3 p,li{
+    font-size: larger;
+    color: aliceblue;
+}
+.Web3 h1{
+    color: rgb(0, 183, 255);
+}
