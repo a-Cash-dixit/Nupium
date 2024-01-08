@@ -6,7 +6,8 @@ body{
     display: flex;
     flex-direction: column;
     padding:1%;
-    background-color: #8400ff;
+    /* background-color: #8400ff; */
+    background-color: #E9DCC9;
     font-family: 'Baloo Bhai 2', sans-serif; 
 }
 
@@ -26,5 +27,5 @@ body{
     color:rgb(0, 183, 255);
 }
 .item>p{
-    color: yellow;
+    color: rgb(48, 5, 36);
 }

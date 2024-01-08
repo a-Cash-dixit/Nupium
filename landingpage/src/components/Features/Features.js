@@ -28,7 +28,7 @@ const data=[
         desc:"We recognize student achievements by awarding badges or certifications upon completion of specific milestones and courses. This helps motivate learners and adds value to their resumes."
     },
     {
-        title:"Real-Time Notifications and Updates",
+        title:"Real-Time Notifications",
         desc:"We keep students informed of upcoming assignments, deadlines, course updates, and important announcements through real-timenotifications on the platform and via email."
     },
     {

@@ -14,6 +14,8 @@ const Slides = () => {
         autoPlay={true}
         interval={3000}
         infiniteLoop={true}
+        showIndicators={false}
+        showStatus={false}
       >
         <div>
           <img style={{ height: "66vh" }} src={img1} alt="slide" />
