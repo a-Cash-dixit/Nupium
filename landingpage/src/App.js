@@ -5,12 +5,14 @@ import ProcessFlow from "./components/Process/ProcessFlow.jsx";
 import Slides from "./components/Slides/Slides";
 import Testimonials from "./components/Testimonials/Testimonials.jsx";
 import Web3 from "./components/Web3/Web3.jsx";
+import Welcome from "./components/Welcome/Welcome.jsx";
 
 function App() {
   return (
     <>
       <Navbar />
       <Slides />
+      <Welcome />
       <Features />
       <ProcessFlow />
       <Web3 />
