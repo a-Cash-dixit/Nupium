@@ -16,6 +16,7 @@ const Slides = () => {
         infiniteLoop={true}
         showIndicators={false}
         showStatus={false}
+        showArrows={false}
       >
         <div>
           <img style={{ height: "66vh" }} src={img1} alt="slide" />
