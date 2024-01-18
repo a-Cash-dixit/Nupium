@@ -5,7 +5,7 @@ import { Carousel } from "react-responsive-carousel";
 import Card from "react-bootstrap/Card";
 const Features = () => {
   return (
-    <div style={{backgroundColor:"#E9DCC9"}}>
+    <div className="features-container">
       <Carousel
         showThumbs={false}
         autoPlay={true}
@@ -16,7 +16,7 @@ const Features = () => {
         showStatus={false}
       >
         <div style={{display:"flex",justifyContent:"space-around"}}>
-        <Card style={{background:"#AA336A",width:"39vh",margin:"2%",height:"37vh",borderRadius:"10%" }}>
+        <Card className="card" style={{background:"#AA336A",width:"39vh",margin:"2%",height:"37vh",borderRadius:"10%" }}>
         <Card.Body>
         
 <svg xmlns="http://www.w3.org/2000/svg" height="23" width="23" viewBox="0 0 576 512"><path opacity="1" fill="#1E3050" d="M64 0C28.7 0 0 28.7 0 64V352c0 35.3 28.7 64 64 64H240l-10.7 32H160c-17.7 0-32 14.3-32 32s14.3 32 32 32H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H346.7L336 416H512c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64zM512 64V288H64V64H512z"/></svg>
@@ -26,7 +26,7 @@ const Features = () => {
           </Card.Text>
         </Card.Body>
       </Card> 
-      <Card style={{background:"#AA336A",width:"39vh",margin:"2%",height:"37vh",borderRadius:"10%" }}>
+      <Card className="card" style={{background:"#AA336A",width:"39vh",margin:"2%",height:"37vh",borderRadius:"10%" }}>
         <Card.Body>
         
 
