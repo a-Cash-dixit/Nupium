@@ -126,24 +126,29 @@ const Web3 = () => {
 
       <div className="semesters">
         <DropdownButton className="dropdown-button" variant="Info"  drop="down"  title="Semester 1">
-          <Dropdown.Item href="#/action-1">Course 1</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">Course 2</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Course 3</Dropdown.Item>
+        <Dropdown.Item href="#/action-1"><div>Course1:Introduction to Blockchain and Web3<div>Month1: What is Blockchain?</div><div>Month2: Introduction to Web3</div></div></Dropdown.Item>
+        <Dropdown.Item href="#/action-2"><div>Course2:Anatomy of a Blockchain</div><div>Month3: Hashing Algorithms</div><div>Month4: Digital Signatures and Public Key Infrastructure</div></Dropdown.Item>
+        <Dropdown.Item href="#/action-3"><div>Course3:Smart Contracts and DApp Development</div><div>Month5:  Introduction to Smart Contracts
+</div><div>Month6: Basics of DApp Development</div></Dropdown.Item>
         </DropdownButton>
         <DropdownButton className="dropdown-button" drop="down" variant="Info" title="Semester 2">
-          <Dropdown.Item href="#/action-1">Course 1</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">Course 2</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Course 3</Dropdown.Item>
+        <Dropdown.Item href="#/action-1"><div>Course4:Introduction to IoT<div>Month7: What is IoT?</div><div>Month8: IoT Data Management</div></div></Dropdown.Item>
+        <Dropdown.Item href="#/action-2"><div>Course5: IoT Protocols and Communication</div><div>Month9:Basic IoT Protocols
+ </div><div>Month10:Network Topologies in IoT</div></Dropdown.Item>
+        <Dropdown.Item href="#/action-3"><div>Course6: IoT Security and Privacy
+</div><div>Month11: IoT Security Challenges
+</div><div>Month12:Privacy and Ethical Concerns</div></Dropdown.Item>
         </DropdownButton>
         <DropdownButton className="dropdown-button" drop="down" variant="Info" title="Semester 3">
-          <Dropdown.Item href="#/action-1">Course 1</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">Course 2</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Course 3</Dropdown.Item>
+        <Dropdown.Item href="#/action-1">Course 7: Introduction to Artificial Intelligence<div>Month 13: What is Artificial Intelligence?</div><div>Month 14: IoT Data Management</div></Dropdown.Item>
+          <Dropdown.Item href="#/action-2">Course 8: Natural Language Processing<div>Month 15: Basics of NLP</div><div>Month 16: Advanced NLP Techniques</div></Dropdown.Item>
+          <Dropdown.Item href="#/action-3">Course 9:Computer Vision and AI Ethics<div>Month 17: Introduction to Computer Vision</div><div>Month 18: AI Ethics and Fairness</div>
+</Dropdown.Item>
         </DropdownButton>
         <DropdownButton className="dropdown-button" drop="down" variant="Info" title="Semester 4">
-          <Dropdown.Item href="#/action-1">Course 1</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">Course 2</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Course 3</Dropdown.Item>
+          <Dropdown.Item href="#/action-1">Course 10: Introduction to Machine Learning<div>Month 19: Fundamentals of Machine Learning</div><div>Month 20: Data Preprocessing and Feature Engineering </div></Dropdown.Item>
+          <Dropdown.Item href="#/action-2">Course 11: Supervised and Unsupervised Learning<div>Month 21: Supervised Learning Techniques</div><div>Month 22: Unsupervised Learning Techniques</div></Dropdown.Item>
+          <Dropdown.Item href="#/action-3">Course 12:Deep Learning and Neural Networks<div>Month 23: Introduction to Neural Networks</div><div>Month 24: Deep Learning Architectures</div></Dropdown.Item>
         </DropdownButton>
         {/* Repeat the above structure for other semesters */}
       </div>
