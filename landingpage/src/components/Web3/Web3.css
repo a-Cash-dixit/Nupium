@@ -1,25 +1,101 @@
-.Web3{
-    display: flex;
+@import url('https://fonts.googleapis.com/css2?family=Ballu+Bhai+2&display=swap');
+
+/* body {
+  font-family: 'Ballu Bhai 2', "sans-serif";
+} */
+
+.web3-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 2%;
+  padding: 20px;
+  background-color: burlywood;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Baloo Bhai 2', sans-serif;
+}
+
+.web3-header h1 {
+  font-size: 28px;
+  color: #0c0909;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.web3-header p {
+  font-size: 16px;
+  color: #2f3638;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.web3-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.web3-details li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #3e3838;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.web3-details li svg {
+  margin-right: 10px;
+}
+
+.semesters {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* Stylish Dropdown Buttons */
+.dropdown-button {
+    background-color: #e74c3c; /* Red color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dropdown-button:hover {
+    background-color: #c0392b; /* Darker red color on hover */
+  }
+  
+  .dropdown-item {
+    font-size: 16px;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+
+  .dropdown-item:hover {
+    background-color: #f5f5f5;
+  }
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .web3-container {
+    padding: 10px;
+  }
+
+  .web3-header h1 {
+    font-size: 24px;
+  }
+
+  .web3-details li {
+    font-size: 14px;
+  }
+
+  .semesters {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #7300ff;
-    font-family: 'Baloo Bhai 2', sans-serif;
-    height: 70vh;
-    padding: 1%;
-    margin-top: 10%;
-}
-.Web3 p,li{
-    font-size: 3vh;
-    color: aliceblue;
-}
-.Web3 h1{
-    color: rgb(0, 183, 255);
-}
-.semesters{
-    display: flex;
-    justify-content: space-around;
-    background: #7300ff;
-    font-family: 'Baloo Bhai 2', sans-serif;
-    height: 10vh;
+  }
 }
