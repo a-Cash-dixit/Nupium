@@ -1,3 +1,4 @@
+import Faculties from "./components/Faculties/Faculties.jsx";
 import Features from "./components/Features/Features.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import Navbar from "./components/Navbar/Navbar";
@@ -14,7 +15,7 @@ function App() {
       <Slides />
       <Welcome />
       <Features />
-      <ProcessFlow />
+      <Faculties />
       <Web3 />
       <Testimonials />
       <Footer />
