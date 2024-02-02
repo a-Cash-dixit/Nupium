@@ -6,7 +6,7 @@
 .Testimonials{
     display: flex;
     flex-direction: column;
-    padding: 2%;
+    align-items: center;
 }
 .heading{
     display: flex;
@@ -30,12 +30,13 @@
     }
   
     .heading {
-      font-size: 2rem; /* Adjust the font size for mobile screens */
+      font-size: 1.5rem; /* Adjust the font size for mobile screens */
     }
   
     .Cards {
       /* Add mobile-specific styles for the container of TestimonialCards */
       flex-direction: column;
+      gap: 20px;
     }
   
     /* Add more mobile-specific styles as needed */
