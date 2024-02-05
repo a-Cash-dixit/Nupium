@@ -7,6 +7,7 @@ import Slides from "./components/Slides/Slides";
 import Testimonials from "./components/Testimonials/Testimonials.jsx";
 import Web3 from "./components/Web3/Web3.jsx";
 import Welcome from "./components/Welcome/Welcome.jsx";
+import "./App.css";
 
 function App() {
   return (

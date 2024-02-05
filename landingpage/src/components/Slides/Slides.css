@@ -7,11 +7,11 @@ body{
     flex-direction: column;
     padding:1%;
     /* background-color: #8400ff; */
-    background-color:burlywood;
+    /* background-color:burlywood; */
     font-family: 'Baloo Bhai 2', sans-serif; 
 }
 
-.info{
+/* .info{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -38,7 +38,7 @@ body{
     .item {
       width: 100%;
       margin-bottom: 20px;
-      font-size: 1rem; /* Adjust the font size for medium screens */
+      font-size: 1rem;
     }
-  }
+  } */
   

@@ -35,24 +35,61 @@ const Slides = () => {
           {/* <p className="legend">Legend 4</p> */}
         </div>
       </Carousel>
-      <div className="info">
-        <div className="item">
-          <h1>Founded</h1>
-          <p>2020</p>
+      <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-5 mb-5 mb-lg-0" style={{minHeight: "500px"}}>
+                  
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src={img1} style={{objectFit: "cover"}} alt="don"></img>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="section-title position-relative mb-4">
+                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">About Us</h6>
+                        <h1 class="display-6">Welcome to Nupium Academy: Your Gateway to the Future</h1>
+                    </div>
+                    <p>Are you curious about the technologies that are shaping our world and 
+eager to be at the forefront of this revolution? Look no further. Nupium 
+Academy is your pivotal step into the universe of Web3, Artificial 
+Intelligence (AI), and the Internet of Things (IoT).Why Nupium Academy? At Nupium Academy, we're not just another IT 
+school. We're an institution dedicated to equipping you with the 
+knowledge and skills required to navigate and thrive in the rapidly 
+evolving landscape of emerging technologies.Our courses are meticulously 
+designed to prepare you for both semi-technical and technical roles 
+within the Web3, AI, and IoT sectors.Whether you're a novice with a budding interest 
+or a professional looking to up skill, Nupium Academy is committed to 
+fostering your journey.</p>
+                    <div class="row pt-3 mx-0">
+                        <div class="col-3 px-0">
+                            <div class="bg-success text-center p-4">
+                                <h1 class="text-white" data-toggle="counter-up">2020</h1>
+                                <h6 class="text-uppercase text-white">FOUNDED</h6>
+                            </div>
+                        </div>
+                        <div class="col-3 px-0">
+                            <div class="bg-primary text-center p-4">
+                                <h1 class="text-white" data-toggle="counter-up">7500+</h1>
+                                <h6 class="text-uppercase text-white">CANDIDATES</h6>
+                            </div>
+                        </div>
+                        <div class="col-3 px-0">
+                            <div class="bg-secondary text-center p-4">
+                                <h1 class="text-white" data-toggle="counter-up">125+</h1>
+                                <h6 class="text-uppercase text-white">TEAM SIZE</h6>
+                            </div>
+                        </div>
+                        <div class="col-3 px-0">
+                            <div class="bg-warning text-center p-4">
+                                <h1 class="text-white" data-toggle="counter-up">TRAIN</h1>
+                                <h6 class="text-uppercase text-white">GLOBALLY</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div className="item">
-          <h1>Candidates</h1>
-          <p>7500+</p>
-        </div>
-        <div className="item">
-          <h1>Team Size</h1>
-          <p>125+</p>
-        </div>
-        <div className="item">
-          <h1>Training</h1>
-          <p>Globally</p>
-        </div>
-      </div>
+    </div>
     </div>
   );
 };

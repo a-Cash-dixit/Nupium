@@ -11,7 +11,7 @@ class Navbar extends Component{
     <>
     <nav>
       <a href="index.html">
-        <img style={{width:"122px",height:"120px"}} src={logo} alt="logo"/>
+        <img style={{width:"170px",height:"170px"}} src={logo} alt="logo"/>
       </a>
       <div>
         <ul id="navbar" className={this.state.clicked?"#navbar active":"#navbar"}>
