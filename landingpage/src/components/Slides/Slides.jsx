@@ -60,29 +60,29 @@ designed to prepare you for both semi-technical and technical roles
 within the Web3, AI, and IoT sectors.Whether you're a novice with a budding interest 
 or a professional looking to up skill, Nupium Academy is committed to 
 fostering your journey.</p>
-                    <div class="row pt-3 mx-0">
+                    <div className="info row pt-3 mx-0 ">
                         <div class="col-3 px-0">
                             <div class="bg-success text-center p-4">
                                 <h1 class="text-white" data-toggle="counter-up">2020</h1>
-                                <h6 class="text-uppercase text-white">FOUNDED</h6>
+                                <h6 class="text-white">Founded</h6>
                             </div>
                         </div>
                         <div class="col-3 px-0">
                             <div class="bg-primary text-center p-4">
                                 <h1 class="text-white" data-toggle="counter-up">7500+</h1>
-                                <h6 class="text-uppercase text-white">CANDIDATES</h6>
+                                <h6 class="text-white">Candidates</h6>
                             </div>
                         </div>
                         <div class="col-3 px-0">
                             <div class="bg-secondary text-center p-4">
                                 <h1 class="text-white" data-toggle="counter-up">125+</h1>
-                                <h6 class="text-uppercase text-white">TEAM SIZE</h6>
+                                <h6 class="text-white">TeamSize</h6>
                             </div>
                         </div>
-                        <div class="col-3 px-0">
+                        <div className="hide col-3 px-0">
                             <div class="bg-warning text-center p-4">
                                 <h1 class="text-white" data-toggle="counter-up">TRAIN</h1>
-                                <h6 class="text-uppercase text-white">GLOBALLY</h6>
+                                <h6 class="text-white">Globally</h6>
                             </div>
                         </div>
                     </div>

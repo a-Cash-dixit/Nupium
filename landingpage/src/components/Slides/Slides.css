@@ -41,4 +41,15 @@ body{
       font-size: 1rem;
     }
   } */
+  @media screen and (max-width: 768px) {
+    .info {
+        display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    .hide{
+        display: none;
+    }
+  }
   
