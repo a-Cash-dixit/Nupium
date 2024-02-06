@@ -45,8 +45,7 @@ body{
     .info {
         display: flex;
       align-items: center;
-      justify-content: center;
-      width: 100%;
+      width: 130%;
     }
     .hide{
         display: none;
