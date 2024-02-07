@@ -8,6 +8,7 @@ import Testimonials from "./components/Testimonials/Testimonials.jsx";
 import Web3 from "./components/Web3/Web3.jsx";
 import Welcome from "./components/Welcome/Welcome.jsx";
 import "./App.css";
+import ProcessFlow from "./components/Process/ProcessFlow.jsx";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Faculties />
       <Web3 />
       <Testimonials />
+      <ProcessFlow />
       <Footer />
     </>
   );

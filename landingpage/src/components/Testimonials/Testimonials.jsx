@@ -23,7 +23,7 @@ becoming part of a legacy.</p>
                     <div class="owl-carousel testimonial-carousel">
                         <div class="bg-light p-5">
                             <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <p>Sed et elitr ipsum labore dolor diam,eos clita est ipsum.Sed at dolor duo ut dolor, et justo erat dolor magna sed stet amet elitr duo lorem</p>
+                            <p>An Investment in Your Future Choosing Nupium Academy is more than just an educational choice—it's an investment.</p>
                             <div class="d-flex flex-shrink-0 align-items-center mt-4">
                                 <img className="img-fluid mr-4" src={img1} alt="don"></img>
                                 <div>
@@ -34,7 +34,9 @@ becoming part of a legacy.</p>
                         </div>
                         <div class="bg-light p-5">
                             <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <p>Sed et elitr ipsum labore dolor diam,clita est ipsum. Sed at dolor duo ut dolor, et justo erat dolor magna sed stet amet elitr duo lorem</p>
+                            <p>Change Your Life, Change Your Career Imagine a future where you're at 
+the forefront of technological innovations, shaping solutions, crafting 
+strategies, and making decisions that impact industries and societies. </p>
                             <div class="d-flex flex-shrink-0 align-items-center mt-4">
                                 <img class="img-fluid mr-4" src={img1} alt="don" />
                                 <div>

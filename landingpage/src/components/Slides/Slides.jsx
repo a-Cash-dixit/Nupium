@@ -38,7 +38,7 @@ const Slides = () => {
       <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="row">
-                <div class="col-lg-5 mb-5 mb-lg-0" style={{minHeight: "500px"}}>
+                <div class="col-lg-5 mb-5 mb-lg-0 iMage" style={{minHeight: "500px"}}>
                   
                     <div class="position-relative h-100">
                         <img class="position-absolute w-100 h-100" src={img1} style={{objectFit: "cover"}} alt="don"></img>

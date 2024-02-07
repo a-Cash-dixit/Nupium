@@ -1,15 +1,67 @@
-.flowchart{
+.stepscontainer {
+    width: 80%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 7%;
-    font-family: 'Baloo Bhai 2', sans-serif;
-    height: 80vh;
+    margin:10px auto;
+    padding-top: 2.5%;
+    justify-content: space-around;
+    align-items: flex-start;
 }
-.Item img{
-    width: 150vh;
+
+.step {
+    width: 20%;
+    text-align: center;
+    position: relative;
+    background-color: #fefcfc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
-.Item h2{
-    color:rgb(0, 183, 255);
+
+.step:hover {
+    transform: translateY(-5px);
+    background-color:#FF4880;
+}
+.step:hover p{
+    color: #fff;
+    font-size: large;
+}
+
+.step::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 50px;
+    height: 2px;
+    background-color: #ccc;
+    transform: translateY(-50%);
+}
+
+.step:last-child::after {
+    display: none;
+}
+
+.step p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666565;
+}
+
+
+@media screen and (max-width: 768px) {
+    .step {
+        width: 90%;
+    }
+    .step p {
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width: 480px) {
+    .stepscontainer {
+        flex-direction: column;
+    }
+    .step {
+        width: 90%;
+    }
 }

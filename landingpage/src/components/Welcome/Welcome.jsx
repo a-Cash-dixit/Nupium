@@ -47,7 +47,7 @@ of hands-on experience at the pinnacle of their fields.
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5" style={{minHeight: "500px"}}>
+                <div class="col-lg-5 iMage" style={{minHeight: "500px"}}>
                     <div class="position-relative h-100">
                         <img class="position-absolute w-100 h-100" src={img} style={{objectFit: "cover"}} alt="don" />
                     </div>

@@ -14,10 +14,10 @@ const Faculties=()=>{
                         <div class="team-item border border-primary img-border-radius overflow-hidden">
                             <img src={dp} class="img-fluid w-100" alt="" />
                             <div class="team-icon d-flex align-items-center justify-content-center">
-                                <a class="share btn btn-primary btn-md-square text-white rounded-circle me-3" href=""><i class="fas fa-share-alt"></i></a>
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="share btn btn-primary btn-md-square text-white rounded-circle me-3" href="#index.html"><i class="fas fa-share-alt"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href="#index.html"><i class="fab fa-facebook-f"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href="#index.html"><i class="fab fa-twitter"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle" href="#index.html"><i class="fab fa-instagram"></i></a>
                             </div>
                             <div class="team-content text-center py-3">
                                 <h4 class="text-primary">Linda Carlson</h4>
@@ -29,10 +29,10 @@ const Faculties=()=>{
                         <div class="team-item border border-primary img-border-radius overflow-hidden">
                             <img src={dp} class="img-fluid w-100" alt="" />
                             <div class="team-icon d-flex align-items-center justify-content-center">
-                                <a class="share btn btn-primary btn-md-square text-white rounded-circle me-3" href=""><i class="fas fa-share-alt"></i></a>
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="share btn btn-primary btn-md-square text-white rounded-circle me-3" href="#index.html"><i class="fas fa-share-alt"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href="#index.html"><i class="fab fa-facebook-f"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href="#index.html"><i class="fab fa-twitter"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle" href="#index.html"><i class="fab fa-instagram"></i></a>
                             </div>
                             <div class="team-content text-center py-3">
                                 <h4 class="text-primary">Linda Carlson</h4>
@@ -44,10 +44,10 @@ const Faculties=()=>{
                         <div class="team-item border border-primary img-border-radius overflow-hidden">
                             <img src={dp} class="img-fluid w-100" alt="" />
                             <div class="team-icon d-flex align-items-center justify-content-center">
-                                <a class="share btn btn-primary btn-md-square text-white rounded-circle me-3" href=""><i class="fas fa-share-alt"></i></a>
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="share btn btn-primary btn-md-square text-white rounded-circle me-3" href="#index.html"><i class="fas fa-share-alt"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href="#index.html"><i class="fab fa-facebook-f"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href="#index.html"><i class="fab fa-twitter"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle" href="#index.html"><i class="fab fa-instagram"></i></a>
                             </div>
                             <div class="team-content text-center py-3">
                                 <h4 class="text-primary">Linda Carlson</h4>
@@ -59,10 +59,10 @@ const Faculties=()=>{
                         <div class="team-item border border-primary img-border-radius overflow-hidden">
                             <img src={dp} class="img-fluid w-100" alt="" />
                             <div class="team-icon d-flex align-items-center justify-content-center">
-                                <a class="share btn btn-primary btn-md-square text-white rounded-circle me-3" href=""><i class="fas fa-share-alt"></i></a>
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="share btn btn-primary btn-md-square text-white rounded-circle me-3" href="#index.html"><i class="fas fa-share-alt"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href="#index.html"><i class="fab fa-facebook-f"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href="#index.html"><i class="fab fa-twitter"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle" href="#index.html"><i class="fab fa-instagram"></i></a>
                             </div>
                             <div class="team-content text-center py-3">
                                 <h4 class="text-primary">Linda Carlson</h4>
