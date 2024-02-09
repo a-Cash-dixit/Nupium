@@ -49,7 +49,7 @@ const Slides = () => {
                         <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">About Us</h6>
                         <h1 class="display-6">Welcome to Nupium Academy: Your Gateway to the Future</h1>
                     </div>
-                    <p>Are you curious about the technologies that are shaping our world and 
+                    <p className="text">Are you curious about the technologies that are shaping our world and 
 eager to be at the forefront of this revolution? Look no further. Nupium 
 Academy is your pivotal step into the universe of Web3, Artificial 
 Intelligence (AI), and the Internet of Things (IoT).Why Nupium Academy? At Nupium Academy, we're not just another IT 
@@ -63,26 +63,26 @@ fostering your journey.</p>
                     <div className="info row pt-3 mx-0 ">
                         <div class="col-3 px-0">
                             <div class="bg-success text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">2020</h1>
-                                <h6 class="text-white">Founded</h6>
+                                <h2 class="text-white" data-toggle="counter-up">2020</h2>
+                                <h5 class="text-white">Founded</h5>
                             </div>
                         </div>
                         <div class="col-3 px-0">
                             <div class="bg-primary text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">7500+</h1>
-                                <h6 class="text-white">Candidates</h6>
+                                <h2 class="text-white" data-toggle="counter-up">7500+</h2>
+                                <h5 class="text-white">Candidates</h5>
                             </div>
                         </div>
                         <div class="col-3 px-0">
                             <div class="bg-secondary text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">125+</h1>
-                                <h6 class="text-white">TeamSize</h6>
+                                <h2 class="text-white" data-toggle="counter-up">125+</h2>
+                                <h5 class="text-white">TeamSize</h5>
                             </div>
                         </div>
                         <div className="hide col-3 px-0">
                             <div class="bg-warning text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">TRAIN</h1>
-                                <h6 class="text-white">Globally</h6>
+                                <h2 class="text-white" data-toggle="counter-up">Training</h2>
+                                <h5 class="text-white">Globally</h5>
                             </div>
                         </div>
                     </div>

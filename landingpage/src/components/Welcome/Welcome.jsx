@@ -11,7 +11,7 @@ const Welcome = () => {
                         <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Why Choose Us?</h6>
                         <h1 class="display-4">Perks Of Nupium Technologies</h1>
                     </div>
-                    <p class="mb-4 pb-2">Curates by the Best: Our curriculum isn't just academically 
+                    <p class="mb-4 pb-2 text">Curates by the Best: Our curriculum isn't just academically 
 rigorous—it's crafted by industry leaders, celebrity teachers, 
 renowned speakers, and innovators. This means you're not just 
 learning theories, but you're absorbing wisdom distilled from years 

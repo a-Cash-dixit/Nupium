@@ -1,45 +1,8 @@
-.faculties{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.faculty{
-    display: flex;
-    justify-content: center;
-    gap: 3%;
-}
-.heading{
-  display: flex;
-  justify-content: center;
-  font-size: 5vh;
-  font-weight: 700;
-  color: aqua;
-  padding: 2%;
-  font-family: 'Baloo Bhai 2', sans-serif;
-}
-@media (max-width: 600px) {
-    /* Add styles for mobile screens here */
-    .faculties {
-        justify-content: center;
-        align-items: center;
-      padding: 10px; /* Adjust the padding or other styles for mobile screens */
-    }
-  
-    .heading {
-      font-size: 1.5rem; /* Adjust the font size for mobile screens */
-    }
-  
-    .faculty {
-      /* Add mobile-specific styles for the container of TestimonialCards */
-      flex-direction: column;
-    }
-  
-    /* Add more mobile-specific styles as needed */
-  }
-  .team .team-item {
+.team .team-item {
     position: relative;
-    width: 100%;
+    width: 30%;
     height: 100%;
+    margin: auto;
 }
 
 .team .team-item .team-icon {
@@ -75,3 +38,11 @@
 .team .team-item:hover .team-content p {
     color:#393D72 !important;
 }
+/* @media (max-width: 801px) {
+    .team-item img{
+        height: 15em;
+    }
+    .team.team-item{
+        width: 150%;
+    }
+  } */

@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 import React, { Component } from "react";
 import "./Navbar.css";
-var logo = require("../../images/logo.jpeg");
+var logo = require("../../images/Color logo with background (1).png");
 class Navbar extends Component{
   state={clicked:false};
   handleClick=()=>{
@@ -43,20 +43,20 @@ class Navbar extends Component{
     <nav>
       <div className="nav">
       <a href="index.html">
-        <img style={{width:"7rem",height:"7rem"}} src={logo} alt="logo"/>
+        <img style={{width:"12rem",height:"auto"}} src={logo} alt="logo"/>
       </a>
         <ul id="navbar" className={this.state.clicked?"#navbar active":"#navbar"}>
           <li>
-            <a href="index.html">Programmes</a>
+            <a href="index.html">PROGRAMMES</a>
           </li>
           <li>
-            <a href="index.html">Registration</a>
+            <a href="index.html">REGISTRATION</a>
           </li>
           <li>
-            <a href="index.html">Login</a>
+            <a href="index.html">LOGIN</a>
           </li>
           <li>
-            <a href="index.html">Pricing</a>
+            <a href="index.html">PRICING</a>
           </li>
         </ul>
         <div id="mobile" onClick={this.handleClick}>
