@@ -1,4 +1,4 @@
-.stepscontainer {
+/* .stepscontainer {
     width: 80%;
     display: flex;
     margin:10px auto;
@@ -64,4 +64,30 @@
     .step {
         width: 90%;
     }
+} */
+.beforeSubscribing{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Subscribing{
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 3%;
+}
+.Subscribing img{
+    width: 12rem;
+    height: auto;
+    padding: 1%;
+}
+.afterSubscribing{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
 }

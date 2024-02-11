@@ -2,45 +2,43 @@ import React from "react";
 import "./ProcessFlow.css";
 var beforeSubscribing = require("../../images/Screenshot (255).png");
 var afterSubscribing = require("../../images/Screenshot (256).png");
+var img1=require("../../images/Screenshot (306).png");
+var img2=require("../../images/Screenshot (307).png");
+var img3=require("../../images/Screenshot (308).png");
+var img4=require("../../images/Screenshot (309).png");
+var img5=require("../../images/Screenshot (310).png");
+var img6=require("../../images/Screenshot (311).png");
+var img7=require("../../images/Screenshot (312).png");
+var img8=require("../../images/Screenshot (313).png");
+var img9=require("../../images/Screenshot (314).png");
+var img10=require("../../images/Screenshot (316).png");
 const ProcessFlow = () => {
   return (
     <div style={{display:"flex",flexDirection:"column",alignItems:"center"}}>
-      <h1>Steps to follow</h1>
-    <div class="stepscontainer">
-        <div class="step">
-            <p>1.Register to Candidate Dashboard</p>
+        <h1>Steps to follow</h1>
+        <div className="Subscribing">
+        <div className="beforeSubscribing">
+            <h2>Before Subscribing</h2>
+            <div>
+            <img src={img1} alt="step1"></img>
+            <img src={img2} alt="step2"></img>
+            <img src={img3} alt="step3"></img>
+            <img src={img4} alt="step4"></img>
+            <img src={img5} alt="step5"></img>
+            </div>
         </div>
-        <div class="step">
-            <p>2.Visit the Website</p>
+        <div className="afterSubscribing">
+        <h2>After Subscribing</h2>
+        <div>
+            <img src={img6} alt="step1"></img>
+            <img src={img7} alt="step2"></img>
+            <img src={img8} alt="step3"></img>
+            <img src={img9} alt="step4"></img>
+            <img src={img10} alt="step5"></img>
+            </div>
         </div>
-        <div class="step">
-            <p>3.Fill the Subscription Form</p>
-        </div>
-        <div class="step">
-            <p>4.Choose Multiple Payment Options</p>
-        </div>
-        <div class="step">
-            <p>5.Pay and Check Email</p>
         </div>
     </div>
-    <div class="stepscontainer" style={{paddingBottom:"10%"}}>
-    <div class="step">
-        <p>6.Login to Candidate Dashboard</p>
-    </div>
-    <div class="step">
-        <p>7.Join Course sessions</p>
-    </div>
-    <div class="step">
-        <p>8.Download Files and videos</p>
-    </div>
-    <div class="step">
-        <p>9.Manage Your Courses</p>
-    </div>
-    <div class="step">
-        <p>10.Download certificates</p>
-    </div>
-</div>
-</div>
   );
 };
 export default ProcessFlow;
