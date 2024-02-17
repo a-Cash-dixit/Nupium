@@ -5,7 +5,7 @@
   background: #c8c7c8;
   padding: 20px 80px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
-}
+  }
 #navbar {
   display: flex;
   align-items: center;
@@ -24,7 +24,7 @@
   text-decoration: none;
   font-size: 1.5rem;
   font-family:"Ballu Bhai";
-  color: #371894;
+  color: #8980a3;
   transition: 0.3s ease-in-out;
 }
 #navbar li a:hover,

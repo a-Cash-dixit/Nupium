@@ -24,3 +24,7 @@
     box-shadow: none;
     text-decoration: none;
 }
+.footer{
+    min-height: 305px;
+    max-height: 900px;
+}

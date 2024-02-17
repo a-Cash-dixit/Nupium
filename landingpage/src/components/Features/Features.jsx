@@ -16,10 +16,10 @@ const Features = () => {
     slidesToScroll:1,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1025,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 2,
+          slidesToScroll: 2,
           infinite: true,
           dots: true
         }
@@ -46,8 +46,7 @@ const Features = () => {
   return (
     <div className="features-container">
       <Slider {... settings}>
-        {/* <div style={{display:"flex",justifyContent:"space-around"}}> */}
-        <Card>
+        <Card >
         <Card.Body>
         
 <svg xmlns="http://www.w3.org/2000/svg" style={{marginLeft:"50%"}} height="23" width="23" viewBox="0 0 576 512"><path opacity="1" fill="#1E3050" d="M64 0C28.7 0 0 28.7 0 64V352c0 35.3 28.7 64 64 64H240l-10.7 32H160c-17.7 0-32 14.3-32 32s14.3 32 32 32H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H346.7L336 416H512c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64zM512 64V288H64V64H512z"/></svg>
@@ -57,7 +56,7 @@ const Features = () => {
           </Card.Text>
         </Card.Body>
       </Card>
-      <Card className="card" style={{background:"#AA336A",width:"39vh",margin:"2%",borderRadius:"10%" }}>
+      <Card >
         <Card.Body>
         
 

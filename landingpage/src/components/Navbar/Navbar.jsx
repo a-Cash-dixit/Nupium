@@ -40,23 +40,23 @@ class Navbar extends Component{
             </div>
         </div>
     </div>
-    <nav>
+    <nav onClick={this.handleClick}>
       <div className="nav">
       <a href="index.html">
         <img style={{width:"12rem",height:"auto"}} src={logo} alt="logo"/>
       </a>
         <ul id="navbar" className={this.state.clicked?"#navbar active":"#navbar"}>
           <li>
-            <a href="index.html">PROGRAMMES</a>
+            <a href="index.html"><b>PROGRAMMES</b></a>
           </li>
           <li>
-            <a href="index.html">REGISTRATION</a>
+            <a href="index.html"><b>REGISTRATION</b></a>
           </li>
           <li>
-            <a href="index.html">LOGIN</a>
+            <a href="index.html"><b>LOGIN</b></a>
           </li>
           <li>
-            <a href="index.html">PRICING</a>
+            <a href="index.html"><b>PRICING</b></a>
           </li>
         </ul>
         <div id="mobile" onClick={this.handleClick}>
