@@ -5,10 +5,11 @@ import Navbar from "./components/Navbar/Navbar";
 //import ProcessFlow from "./components/Process/ProcessFlow.jsx";
 import Slides from "./components/Slides/Slides";
 import Testimonials from "./components/Testimonials/Testimonials.jsx";
-import Web3 from "./components/Web3/Web3.jsx";
+//import Web3 from "./components/Web3/Web3.jsx";
 import Welcome from "./components/Welcome/Welcome.jsx";
 import "./App.css";
 import ProcessFlow from "./components/Process/ProcessFlow.jsx";
+import Courses from "./components/Courses/Courses.jsx";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <Welcome />
       <Features />
       <Faculties />
-      <Web3 />
+      <Courses />
       <Testimonials />
       <ProcessFlow />
       <Footer />

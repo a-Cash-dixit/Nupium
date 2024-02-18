@@ -88,7 +88,6 @@ const Web3 = () => {
           <Dropdown.Item href="#/action-2"><div style={{fontWeight:"800"}}>Course 11: Supervised and Unsupervised Learning</div><div>Month 21: Supervised Learning Techniques</div><div>Month 22: Unsupervised Learning Techniques</div></Dropdown.Item>
           <Dropdown.Item href="#/action-3"><div style={{fontWeight:"800"}}>Course 12:Deep Learning and Neural </div><div>Month 23: Introduction to Neural Networks</div><div>Month 24: Deep Learning Architectures</div></Dropdown.Item>
         </DropdownButton>
-        {/* Repeat the above structure for other semesters */}
       </div>
     </div>
   );

@@ -9,7 +9,7 @@ import data from "./Features";
 import Card from "react-bootstrap/Card";
 const Features = () => {
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 1000,
     slidesToShow: 4,
@@ -41,7 +41,7 @@ const Features = () => {
       }
     ],
     autoplay:true,
-    autoplaySpeed:1000
+    autoplaySpeed:2000
   };
   return (
     <div className="features-container">

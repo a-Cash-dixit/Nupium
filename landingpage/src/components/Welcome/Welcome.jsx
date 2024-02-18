@@ -3,7 +3,7 @@ import React from "react";
 var img=require("../../images/1007320043_627395c3d8.jpg");
 const Welcome = () => {
   return (
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-1">
         <div class="container py-5">
             <div class="row">
                 <div class="col-lg-7 mb-5 mb-lg-0">
